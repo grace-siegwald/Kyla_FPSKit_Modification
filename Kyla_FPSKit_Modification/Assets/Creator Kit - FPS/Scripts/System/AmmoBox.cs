@@ -8,7 +8,7 @@ public class AmmoBox : MonoBehaviour
     [AmmoType]
     public int ammoType;
     public int amount;
-    
+
     void Reset()
     {
         gameObject.layer = LayerMask.NameToLayer("PlayerCollisionOnly");
